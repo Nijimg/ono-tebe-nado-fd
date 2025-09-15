@@ -65,7 +65,7 @@
     color: white;
     min-height: 757px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 .overlay {
     width: 100%;
@@ -88,18 +88,18 @@
 }
 
 
+.cover-text {
+    padding-bottom: 18px;
+}
 .text-left {  
-    padding-bottom:18px;
     align-self:start;
 }
 
 .text-center {
-    padding-bottom:18px;
     align-self:center;
 
 }
 .text-right {
-    padding-bottom:15px;
     align-self:end;
 
 } 
@@ -110,7 +110,8 @@
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
-    padding-top: 90px;
+    padding-top: 87px;
+
     font-weight: 400;
     justify-content: space-around;
 
@@ -161,7 +162,7 @@
     width: 334px;
     min-height: 596px;
     position: relative;
-    z-index:0;
+    z-index: 0;
 }
 
 .film-card{
@@ -192,6 +193,11 @@
     text-decoration: underline;
     text-decoration-skip-ink: none;
 
+}
+
+.card-link {
+    text-decoration: none;
+    border-bottom: none;
 }
 .card-content {
     padding: 48px 40px;
@@ -235,8 +241,8 @@
 }
 .about-logo {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
     border-radius: 50%;
     width: 100%;
@@ -268,7 +274,7 @@
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     gap: 140px;
-    margin-top: 180px;
+    margin: 180px 0 82px;
     padding: 0px 50px;
 }
 
